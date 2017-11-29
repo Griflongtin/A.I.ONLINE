@@ -1,8 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+.hero-line {
+  margin: 5vh auto;
+  width: 60%;
+  border-bottom: 1px white solid;
+}
+
+.icon {
+  align-self: flex-start;
+  width: 40px;
+  margin: auto 5px auto 0px;
+}
+
+@media screen and (min-width: 801px)  {
+  .container {
+    background-image: url(../img/black-hole.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 10em 5em rgba(0,0,0,80);
+  }
+}
+@media screen and (max-width: 800px)  {
+  .background-one {
+    background-image: url(../img/black-hole.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 10em 5em rgba(0,0,0,80);
+    padding: 20px;
+  }
+  .background-two {
+    background-image: url(../img/space-three.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 1.5em 1.5em rgba(0,0,0,80);
+  }
+}
+@media screen and (max-width: 500px)  {
+  .background-one {
+    background-image: url(../img/black-hole.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 10em 5em #000;
+    margin: 0px -13px 0px -13px;
+    padding: 20px;
+  }
+  .background-two {
+    background-image: url(../img/space-two.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 10em 5em #000;
+    margin: 0px -13px 0px -13px;
+  }
+}
+.desc {
+  display: flex;
+}
+body {
+
+  color: white;
+  background: black;
+}
+.jumbotron {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  padding-top: 100px;
+}
+
 .cool-card {
   border: 4px inset gray;
   padding: 15px;
 }
-iframe{
+
+.navbar-brand {
+  font-size: 3em;
+}
+
+.navbar-default {
+  background: none;
+  border: none;
+}
+
+/*iframe{
   pointer-events: none;
   position: absolute;
   width: 100%;
@@ -15,7 +112,4 @@ iframe{
   border-right-width: 0px;
   border-bottom-width: 0px;
   border-left-width: 0px;
-  border-style: inset;
-  border-color: initial;
-  border-image: initial;
-}
+}*/
