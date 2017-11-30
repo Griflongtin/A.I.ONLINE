@@ -8,7 +8,9 @@
   font-family: cracked;
   src: url(cracked.ttf);
 }
-
+nav span{
+  margin: 0 auto;
+}
 .logo {
   font-family: cracked;
 }
