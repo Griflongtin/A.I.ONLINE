@@ -2,43 +2,54 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Bootstrap 101 Template</title>
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css" type="text/css">
   </head>
   <body>
     <div class="container">
+
       <div class="background-one">
-        <div class="navbar navbar-default" role="navigation"> <!-- navbar -->
-          <div class="navbar-header">
-            <button type="button" name="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <span class="navbar-brand">AI ONLINE</span>
-          </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Create Account</a></li>
-              <li><a href="#">Free Trial</a></li>
-              <li><a href="#">Buy Now</a></li>
+
+        <nav class="navbar navbar-dark">
+          <a class="logo navbar-brand" href="#">A.I.ONLINE</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Disabled</a>
+              </li>
             </ul>
           </div>
-        </div> <!-- /navbar -->
+        </nav>
 
         <div class="hero-text">
           <h1>Tomorrow is the Future</h1>
-          <h2>Yesterday is the Past</h2>
+          <h2 class="text-shadow">Yesterday is the Past</h2>
 
           <div class="hero-line"></div>
 
+          <h3 class="text-shadow">"It is a super-awesome space-sandbox where you can do just about anything.  No lag."</h3>
+
+          <button type="button" name="button" class="button play-button">PLAY FREE</button>
+          <p class="subs">No monthly subscription required</p>
+          <button type="button" name="button" class="button upgrade-button">OR UPGRADE TO ALPHA</button>
+          <a href="#"><p>What is Alpha?</p></a>
         </div>
 
       </div> <!--background1-->
@@ -68,23 +79,55 @@
         </div>
       </div> <!--row background-two-->
 
-      <div class="row">
-        <div class="col-sm-6">
-          <p>Make today your first</p>
-        </div>
-        <div class="col-sm-6">
-          <p>"It's an infinitely gratifying space-sandbox where you can do just about anything"</p>
-        </div>
-        <div class="col-md-4">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        <div class="col-md-4">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        <div class="col-md-4">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <div class="news">
+        <h3>A.I.Online in the <strong>NEWS</strong></h3>
+        <div class="divider">
+          <div class="divider-tab"></div>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-lg-4">
+          <img class="ship-img" src="img/space-ship.jpg" alt="">
+          <h6><span>pc gamer</span>- 2017-10-06</h6>
+          <p>A.I. Online's free-to-play program is going to get a lot more generous</p>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <img class="ship-img" src="img/space-ship.jpg" alt="">
+          <h6><span>pc gamer</span>- 2017-10-06</h6>
+          <p>A.I. Online's free-to-play program is going to get a lot more generous</p>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <img class="ship-img" src="img/space-ship.jpg" alt="">
+          <h6><span>pc gamer</span>- 2017-10-06</h6>
+          <p>A.I. Online's free-to-play program is going to get a lot more generous</p>
+        </div>
+      </div>
+
+      <div class="game-play">
+        <h3>A.I.Online <strong>GamePlay</strong></h3>
+        <div class="divider">
+          <div class="divider-tab"></div>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>A.I. Online is a vast, community-driven space MMO where players can play for free, choosing their own path from countless opportunities. Experience immense battles in PvP, as well as PvE combat, exploration, mining, industry and a thriving player economy in an ever-expanding sandbox.</p>
+          </div>
+          <div class="col-lg-12 display">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ZdoQzmzg2XY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" scrolling="no"  allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="ships-slide">
+          <h3>Ships in A.I. ONLINE - <strong>A GLIMPSE</strong></h3>
+          <div class="divider">
+            <div class="divider-tab"></div>
+          </div>
+
+          <!--CAROUSEL-->
+
+        </div>
     </div>
 
 
@@ -93,8 +136,8 @@
 
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   </body>
 </html>
